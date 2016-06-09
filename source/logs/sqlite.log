@@ -1,0 +1,189 @@
+2016-06-03 11:28:30,108 (worker.py:18) INFO sqlite: SELECT id, title FROM [category]
+2016-06-03 11:28:34,946 (worker.py:18) INFO sqlite: DELETE FROM [favorites] WHERE user_id = 144928681 AND content_id = 44
+2016-06-03 11:28:39,330 (worker.py:18) INFO sqlite: INSERT INTO [rating] VALUES(144928681, 44, 1)
+2016-06-03 11:28:39,700 (worker.py:18) INFO sqlite: SELECT content_id FROM [favorites] WHERE user_id = 144928681 AND content_id = 44
+2016-06-03 11:28:42,278 (worker.py:18) INFO sqlite: SELECT content_id FROM [favorites] WHERE user_id = 144928681
+2016-06-03 11:28:42,279 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in (1, 40, 41, 42, 43)
+2016-06-03 11:28:42,304 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (1)
+2016-06-03 11:28:42,305 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (40)
+2016-06-03 11:28:42,306 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (41)
+2016-06-03 11:28:44,309 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in (1, 40, 41, 42, 43)
+2016-06-03 11:28:44,310 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (42)
+2016-06-03 11:28:44,311 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (43)
+2016-06-03 11:28:45,608 (worker.py:18) INFO sqlite: DELETE FROM [favorites] WHERE user_id = 144928681 AND content_id = 43
+2016-06-03 11:28:47,054 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in (1, 40, 41, 42, 43)
+2016-06-03 11:28:47,055 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (1)
+2016-06-03 11:28:47,056 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (40)
+2016-06-03 11:28:47,056 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (41)
+2016-06-03 11:28:48,298 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in (1, 40, 41, 42, 43)
+2016-06-03 11:28:48,299 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (42)
+2016-06-03 11:28:48,299 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (43)
+2016-06-03 11:28:48,984 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in (1, 40, 41, 42, 43)
+2016-06-03 11:28:48,985 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (1)
+2016-06-03 11:28:48,986 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (40)
+2016-06-03 11:28:48,986 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (41)
+2016-06-03 11:28:50,057 (worker.py:18) INFO sqlite: DELETE FROM [favorites] WHERE user_id = 144928681 AND content_id = 40
+2016-06-03 11:28:53,030 (worker.py:18) INFO sqlite: SELECT content_id FROM [favorites] WHERE user_id = 144928681
+2016-06-03 11:28:53,031 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in (1, 41, 42)
+2016-06-03 11:28:53,031 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (1)
+2016-06-03 11:28:53,032 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (41)
+2016-06-03 11:28:53,033 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (42)
+2016-06-03 11:29:26,279 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE ingredients LIKE '%egg%' AND ingredients LIKE '%milk%'
+2016-06-03 11:29:26,280 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (4)
+2016-06-03 11:29:26,281 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (6)
+2016-06-03 11:29:26,281 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (21)
+2016-06-03 11:29:36,235 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%egg%' AND title LIKE '%milk%'
+2016-06-03 11:29:57,218 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%egg%' AND title LIKE '%%'
+2016-06-03 11:30:01,783 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%cake%' AND title LIKE '%%'
+2016-06-03 11:30:01,784 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (2)
+2016-06-03 11:30:01,785 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (3)
+2016-06-03 11:30:01,786 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (4)
+2016-06-03 11:30:05,360 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%cake%'
+2016-06-03 11:30:05,361 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (5)
+2016-06-03 11:30:05,362 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (14)
+2016-06-03 11:30:05,363 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (19)
+2016-06-03 11:30:06,339 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%cake%'
+2016-06-03 11:30:06,341 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (2)
+2016-06-03 11:30:06,342 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (3)
+2016-06-03 11:30:06,343 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (4)
+2016-06-03 11:30:23,477 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%cake%' AND title LIKE '%apple%'
+2016-06-03 11:30:23,478 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in (3)
+2016-06-03 11:30:40,345 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in (d)
+2016-06-03 11:31:16,501 (worker.py:18) INFO sqlite: SELECT id, title FROM [category]
+2016-06-03 11:31:16,771 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in (d)
+2016-06-03 11:32:05,493 (worker.py:18) INFO sqlite: SELECT id, title FROM [category]
+2016-06-03 11:32:05,759 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in (d,)
+2016-06-03 11:32:46,298 (worker.py:18) INFO sqlite: SELECT id, title FROM [category]
+2016-06-03 11:32:46,568 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in (d)
+2016-06-03 12:49:33,207 (worker.py:18) INFO sqlite: SELECT id, title FROM [category]
+2016-06-03 12:49:33,578 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in (d)
+2016-06-03 12:52:02,963 (worker.py:18) INFO sqlite: SELECT id, title FROM [category]
+2016-06-03 12:52:03,330 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in ('d')
+2016-06-03 12:52:15,335 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%cake%'
+2016-06-03 12:52:15,337 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('2')
+2016-06-03 12:52:15,338 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 12:52:15,339 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 12:52:19,288 (worker.py:18) INFO sqlite: INSERT INTO [favorites] VALUES(144928681, 3)
+2016-06-03 12:52:20,638 (worker.py:18) INFO sqlite: INSERT INTO [favorites] VALUES(144928681, 4)
+2016-06-03 12:52:23,137 (worker.py:18) INFO sqlite: SELECT content_id FROM [favorites] WHERE user_id = 144928681
+2016-06-03 12:52:23,139 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('1', '3', '4', '41', '42')
+2016-06-03 12:52:23,140 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('1')
+2016-06-03 12:52:23,140 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 12:52:23,141 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 12:52:24,852 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('1', '3', '4', '41', '42')
+2016-06-03 12:52:24,853 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('41')
+2016-06-03 12:52:24,854 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('42')
+2016-06-03 12:52:26,001 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('1', '3', '4', '41', '42')
+2016-06-03 12:52:26,003 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('1')
+2016-06-03 12:52:26,004 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 12:52:26,005 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 12:52:27,322 (worker.py:18) INFO sqlite: SELECT recipe_id, title, ingredients, img, directians FROM [content] WHERE recipe_id in ('3')
+2016-06-03 12:52:27,324 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 12:52:27,325 (worker.py:18) INFO sqlite: SELECT content_id FROM [favorites] WHERE user_id = 144928681 AND content_id = 3
+2016-06-03 12:52:30,992 (worker.py:18) INFO sqlite: DELETE FROM [favorites] WHERE user_id = 144928681 AND content_id = 4
+2016-06-03 12:52:32,875 (worker.py:18) INFO sqlite: DELETE FROM [favorites] WHERE user_id = 144928681 AND content_id = 3
+2016-06-03 12:52:34,763 (worker.py:18) INFO sqlite: INSERT INTO [rating] VALUES(144928681, 3, 2)
+2016-06-03 12:52:34,911 (worker.py:18) INFO sqlite: SELECT content_id FROM [favorites] WHERE user_id = 144928681 AND content_id = 3
+2016-06-03 12:52:40,229 (worker.py:18) INFO sqlite: SELECT content_id FROM [favorites] WHERE user_id = 144928681
+2016-06-03 12:52:40,230 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('1', '41', '42')
+2016-06-03 12:52:40,234 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('1')
+2016-06-03 12:52:40,235 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('41')
+2016-06-03 12:52:40,236 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('42')
+2016-06-03 14:54:51,394 (worker.py:18) INFO sqlite: SELECT id, title FROM [category]
+2016-06-03 14:55:04,768 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%cake%' AND title LIKE '%apple%'
+2016-06-03 14:55:04,769 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 14:55:10,723 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in ('d')
+2016-06-03 14:55:13,685 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in ('1')
+2016-06-03 14:55:13,686 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('33')
+2016-06-03 14:55:13,687 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('34')
+2016-06-03 14:55:13,688 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('35')
+2016-06-03 14:55:17,230 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE category in ('3')
+2016-06-03 14:55:23,141 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('')
+2016-06-03 14:55:26,395 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('1')
+2016-06-03 14:55:26,396 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('1')
+2016-06-03 14:55:31,809 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('4')
+2016-06-03 14:55:31,811 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 14:55:39,133 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE recipe_id in ('5')
+2016-06-03 14:55:39,134 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('5')
+2016-06-03 14:56:44,855 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%title:%'
+2016-06-03 14:56:50,106 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%title:%'
+2016-06-03 14:56:54,267 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%title: apple%'
+2016-06-03 14:56:58,845 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:56:58,847 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('1')
+2016-06-03 14:56:58,848 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('2')
+2016-06-03 14:56:58,848 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 14:57:27,425 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:27,426 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 14:57:27,427 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('5')
+2016-06-03 14:57:27,428 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 14:57:28,178 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:28,179 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('7')
+2016-06-03 14:57:28,181 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('8')
+2016-06-03 14:57:28,182 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('9')
+2016-06-03 14:57:28,843 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:28,844 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('10')
+2016-06-03 14:57:28,845 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('11')
+2016-06-03 14:57:28,846 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('12')
+2016-06-03 14:57:29,568 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:29,570 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('43')
+2016-06-03 14:57:29,571 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('44')
+2016-06-03 14:57:30,312 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:30,313 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('40')
+2016-06-03 14:57:30,314 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('41')
+2016-06-03 14:57:30,315 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('42')
+2016-06-03 14:57:31,104 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:31,106 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('34')
+2016-06-03 14:57:31,107 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('35')
+2016-06-03 14:57:31,107 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('36')
+2016-06-03 14:57:31,664 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:31,666 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('1')
+2016-06-03 14:57:31,666 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('2')
+2016-06-03 14:57:31,667 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 14:57:32,283 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 14:57:32,285 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 14:57:32,286 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('5')
+2016-06-03 14:57:32,287 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 15:10:18,174 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 15:10:18,175 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('7')
+2016-06-03 15:10:18,176 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('8')
+2016-06-03 15:10:18,177 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('9')
+2016-06-03 15:10:18,993 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 15:10:18,994 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('10')
+2016-06-03 15:10:18,995 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('11')
+2016-06-03 15:10:18,996 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('12')
+2016-06-03 15:10:19,825 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 15:10:19,826 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('10')
+2016-06-03 15:10:19,828 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('11')
+2016-06-03 15:10:19,829 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('12')
+2016-06-03 15:10:20,591 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 15:10:20,592 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('7')
+2016-06-03 15:10:20,593 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('8')
+2016-06-03 15:10:20,594 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('9')
+2016-06-03 15:10:21,663 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 15:10:21,664 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 15:10:21,665 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('5')
+2016-06-03 15:10:21,666 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 15:10:22,346 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 15:10:22,347 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('1')
+2016-06-03 15:10:22,348 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('2')
+2016-06-03 15:10:22,348 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('3')
+2016-06-03 15:10:23,120 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%%'
+2016-06-03 15:10:23,122 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('4')
+2016-06-03 15:10:23,123 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('5')
+2016-06-03 15:10:23,124 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 18:33:35,426 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%d%'
+2016-06-03 18:33:35,550 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 18:33:35,550 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('10')
+2016-06-03 18:33:35,551 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('11')
+2016-06-03 18:33:40,181 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%d%'
+2016-06-03 18:33:40,183 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 18:33:40,183 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('10')
+2016-06-03 18:33:40,185 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('11')
+2016-06-03 18:33:41,316 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%d%'
+2016-06-03 18:33:41,317 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 18:33:41,318 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('10')
+2016-06-03 18:33:41,318 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('11')
+2016-06-03 18:33:42,278 (worker.py:18) INFO sqlite: SELECT recipe_id, title, category FROM [content] WHERE title LIKE '%d%'
+2016-06-03 18:33:42,280 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('6')
+2016-06-03 18:33:42,281 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('10')
+2016-06-03 18:33:42,282 (worker.py:18) INFO sqlite: SELECT SUM(voice), COUNT(*) FROM [rating] WHERE content_id in ('11')
