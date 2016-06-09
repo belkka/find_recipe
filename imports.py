@@ -13,6 +13,3 @@ except:
                                           "pytelegrambotapi")
 else:
     print "All right!"
-
-d
-  dd
