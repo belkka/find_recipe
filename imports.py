@@ -6,10 +6,10 @@ try:
 
     import telebot
 except:
-    print "You should install", ", ".join("re", 
-                                          "urllib", 
-                                          "logging", 
-                                          "sqlite3", 
+    print "You should install", ", ".join("re",
+                                          "urllib",
+                                          "logging",
+                                          "sqlite3",
                                           "pytelegrambotapi")
 else:
     print "All right!"
